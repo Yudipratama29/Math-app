@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Operasi">
+
+    <ImageView
+        android:id="@+id/background_operasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/Operasi_logo"
+        android:layout_width="241dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/operasi_logo" />
+
+    <ImageView
+        android:id="@+id/TextBox_operasi"
+        android:layout_width="298dp"
+        android:layout_height="379dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/textbox_operasi" />
+
+    <ImageButton
+        android:id="@+id/BtnTambah"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="515dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageButton
+        android:id="@+id/BtnKurang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="515dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/min" />
+
+    <ImageButton
+        android:id="@+id/BtnKali"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="515dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kali" />
+
+    <ImageButton
+        android:id="@+id/BtnBagi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="515dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bagi" />
+
+    <EditText
+        android:id="@+id/opBilangan2"
+        android:layout_width="252dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="344dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/opBilangan1"
+        android:layout_width="252dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/opHasil"
+        android:layout_width="252dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="449dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/BtnopClear"
+        android:layout_width="129dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="595dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clear" />
+
+    <ImageButton
+        android:id="@+id/BtnopHome"
+        android:layout_width="129dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="595dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:onClick="BtnopHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
